@@ -2,8 +2,6 @@ let no1 = Math.random();
 no1=Math.ceil(no1*6);
 let no2 = Math.random();
 no2=Math.ceil(no2*6);
-console.log(no1);
-console.log(no2);
 function myLoad(){
     document.querySelector(`.img1`).setAttribute(`src`,`utils/dice${no1}.png`);
     document.querySelector(`.img2`).setAttribute(`src`,`utils/dice${no2}.png`);
