@@ -56,6 +56,10 @@ body{
     font-size: 120%;
     color: aquamarine;
 }
+.info{
+    position: fixed;
+    bottom: 2rem;
+}
 @media (max-width: 500px){
     .title{
         font-size: 4.5em;
